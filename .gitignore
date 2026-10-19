@@ -1,0 +1,32 @@
+# ==========================================
+# Industrial Surface Defect Detection
+# ==========================================
+
+# Python Virtual Environment
+.venv/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# Dataset
+data/raw/
+data/interim/
+data/processed/
+
+# Model Weights
+*.pt
+*.pth
+*.onnx
+
+# Training Outputs
+runs/
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# Windows System Files
+Thumbs.db
+Desktop.ini
