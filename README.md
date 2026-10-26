@@ -97,26 +97,32 @@ The project will follow these development stages:
 
 Dependencies and exact package versions will be finalized after environment compatibility testing.
 
+
 ## 7. Project Status
 
-**Current Phase: Sprint 1A — Project Initialization**
+**Current Phase: Sprint 1A — Environment Setup and Dataset Preparation**
 
 ### Completed
 
-- [x] Python installation
-- [x] Git installation
-- [x] Visual Studio Code installation
+- [x] Python, Git, and VS Code installation
 - [x] Hardware and software inspection
+- [x] GitHub repository initialization
+- [x] Python virtual environment setup
+- [x] PyTorch 2.9.1 with CUDA 12.6 installation
+- [x] Ultralytics 8.4.189 installation
+- [x] YOLOv8n and YOLO26n model loading verification
+- [x] GPU inference smoke tests
 
 ### Pending
 
-- [ ] Git repository initialization and first commit
-- [ ] Python virtual environment setup
-- [ ] PyTorch installation and CUDA verification
-- [ ] Ultralytics environment verification
-- [ ] Dataset acquisition and initial audit
+- [ ] Dataset acquisition
+- [ ] Dataset integrity and annotation validation
+- [ ] Dataset distribution analysis
+- [ ] Data leakage assessment
+- [ ] Reproducible train/validation/test splitting
 
 Model training and experimental evaluation have not yet started.
+
 
 ## 8. Limitations
 
